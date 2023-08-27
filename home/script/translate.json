@@ -1,0 +1,26 @@
+{
+    "english": {
+        "iam":"Hi, I am",
+        "aboutme":"About me",
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact",
+        "aboutMe": "As a software development student, I am eagerly seeking an opportunity to apply new technologies and code techniques, while embracing good programming practices, fueled by my genuine love for programming.",
+        "resume":"Download Resumé",
+        "personalInfo": "Hi, I am 24 years old. I was born in Salvador, Brasil and am currrently living in Rio de Janeiro, Brasil. As an aspiring software developer, I am deeply passionate about embracing new technologies and am determined to excel in my field through diligent work and continuous learning."
+    },
+    "portuguese": {
+        "iam":"Oi, eu sou",
+        "aboutme":"Sobre mim",
+        "home": "Início",
+        "projects": "Projetos",
+        "about": "Sobre",
+        "resume":"Download Currículo",
+        "contact": "Contato",
+        "aboutMe": "Como estudante de desenvolvimento de software, estou ansioso por uma oportunidade para aplicar novas tecnologias e técnicas de codificação, ao mesmo tempo que abraço boas práticas de programação, impulsionado pelo meu amor genuíno pela programação.",
+        "personalInfo": "Oi, eu tenho 24 anos. Eu nasci em Salvador, Brasil, e atualmente moro no Rio de Janeiro, Brasil. Como aspirante a desenvolvedor de software, sou profundamente apaixonado por abraçar novas tecnologias e estou determinado a me destacar na minha área por meio de trabalho diligente e aprendizado contínuo."
+       
+    }
+}
+
