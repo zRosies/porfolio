@@ -60,16 +60,23 @@
         font-size: 3em !important;
     }
     #ham{
-     /* justify-self: center; */
+        /* justify-self: center; */
         display: block;
         z-index: 0;
         /* border: 2px solid white; */
-        padding: 5px;
-        font-size: 1.5em;
-        margin-right: 50px;
+        
+        font-size: 1.2em;
+        margin-right: 10px;
         margin-top: 20px;
-        width: 50px;
-        height: 50px;
+        height: 42px;
+        width: 42px;
+    }
+    .translation{
+        display: none;
+    }
+    .translationSmall{
+        display: flex;
+        justify-content: end;
     }
     .buttons{
         width: 80%;

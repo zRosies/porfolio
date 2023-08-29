@@ -22,6 +22,7 @@
             <button id="ham"> &#9776;</button>
 
         </div>
+        
        
         <nav class="navigation">
             
@@ -31,16 +32,42 @@
             <a href="../contact/contact.html" data-translation="contact">Contact</a>
             <!-- <a href="" class="name"></a> -->
             <!-- <button class="login">Login</button> -->
+            
+            <div class="translationSmall">
+                <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                <label class="switch">
+                    
+                   
+                    <select name="languages" id="lang">
+                        <option value="English">English</option>
+                        <option value="Portuguese">Português</option>
+                        
+                    </select>
+                    
+                   
+                
+                </label>
+            </div>
 
         </nav>
+
         <div class="translation">
-            <p>Portuguese/English <span><i class="fa-solid fa-globe"></i></span></p>
+            <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
             <label class="switch">
                 
-                <input type="checkbox" id="switchButton">
-                <span class="slider"></span>
-        </label>
+                <!-- <input type="checkbox" id="switchButton"> -->
+                <select name="languages" id="lang2">
+                    <option value="English">English</option>
+                    <option value="Portuguese">Português</option>
+                    
+                </select>
+                
+                <!-- <span class="slider"><p>es</p></span> -->
+            
+            </label>
          </div>
+      
+      
       
         
        
@@ -76,8 +103,8 @@
         </div>
 
         <div class="img">
-            <img class='ima' src="img/img.png" alt="aa">
-            <img class= 'imb' src="img/img2.png" alt="bb">      
+            <img class='ima' src="img/img.png" alt="image">
+            <img class= 'imb' src="img/img2.png" alt="image">      
         </div> 
         <div class="wrapper">
             <span class="iconclose">
@@ -99,7 +126,7 @@
             </div>
             <div class="formboxreg">
                 <div class="experience">             
-                    <h1>Certificates</h1>
+                    <h1 data-translation="certificate">Certificates</h1>
                     <div class="certificates">
                         <p>Web And Computer programming</p>
                         <p class="side">Jan. 2022- Jun 2023</p>

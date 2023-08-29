@@ -75,59 +75,9 @@ lastUpd.textContent=go;
 
 // Translating to portuguese//
 
-const switchButton = document.querySelector('#switchButton'); 
-let currentLanguage = 'english'; // 
+
 
 // Function to change language
-
-const textLoad = () => {
-  let count=0;
-  setTimeout(() => {
-    text.textContent = "Gustavo Bispo";
-  }, 0);
-  setTimeout(() => {
-    text.textContent = "Software Developer";
-  }, 3000);
-  setTimeout(() => {
-    text.textContent = "Web Developer";
-  }, 6000);
-  setTimeout(() => {
-    text.textContent = "The Future";
-  }, 9000);
-
-  setTimeout(() => {
-    textLoad(count + 1);
-    if(count>4){
-      count=0;
-    }
-  }, 12000);
-}
-
-const textLoadpT = () => {
-  let count=0;
-  setTimeout(() => {
-    text.textContent = "Gustavo Bispo";
-  }, 0);
-  setTimeout(() => {
-    text.textContent = "Desenvolvedor de Software";
-  }, 3100);
-  setTimeout(() => {
-    text.textContent = "Desenvolvedor Web";
-  }, 6200);
-  setTimeout(() => {
-    text.textContent = "O Futuro";
-  }, 9300);
-
-  setTimeout(() => {
-    textLoad(count + 1);
-    if(count>4){
-      count=0;
-    }
-  }, 12000);
-}
-
-let defaultLoad=true;
-
 
 function changeLanguage(language) {
     fetch(`./script/translate.json`)
@@ -144,26 +94,76 @@ function changeLanguage(language) {
         .catch(error => console.error('Error loading translation:', error));
 }
 
-switchButton.addEventListener('click', () => {
 
-    if (switchButton.checked) {
+function languageLoad(language) {
+ 
+
+  if (language == "english") {
+    const textLoad = () => {
+      let count = 0;
+      const animationDuration = 12000; // Total duration of the animation in milliseconds
+
+      setTimeout(() => {
+        text.textContent = "Gustavo Bispo";
+        // 
+      }, 0);
+      setTimeout(() => {
+        text.textContent = "Software Developer";
+      }, 3050);
+      setTimeout(() => {
+        text.textContent = "Web Developer";
+      }, 6100);
+      setTimeout(() => {
+        text.textContent = "The Future";
+      }, 9150);
+
+      setTimeout(() => {
+        textLoad(count + 1);
+        if (count > 4) {
+          count = 0;
+          clearTimeout();
+        }
+      }, animationDuration);
+    };
+    textLoad();
+  }
+}
+const switchButton = document.querySelector('#lang'); 
+const switchButton2 = document.querySelector('#lang2'); 
+let currentLanguage = 'english'; // 
+
+
+switchButton.addEventListener('change', () => {
+    console.log("aaaaaa");
+    const language = switchButton.value.toLowerCase();
+    if (language==="portuguese") {
         changeLanguage('portuguese');
-        currentLanguage = 'portuguese';
-        textLoadpT();
-        defaultLoad=false;
+        
         
     }
-    else if(defaultLoad){
-
-      textLoad();
-
-    } else {
+    else {
         changeLanguage('english');
-        currentLanguage = 'english';
-        textLoad();
-        defaultLoad=false;
+      
+        
     }
+    // languageLoad(currentLanguage)
+});
+
+switchButton2.addEventListener('change', () => {
+  console.log("aaaaaa");
+  const language = switchButton2.value.toLowerCase();
+  if (language==="portuguese") {
+      changeLanguage('portuguese');
+      
+      
+  }
+  else {
+      changeLanguage('english');
+    
+      
+  }
+ 
 });
 
 // Initial language setup
-changeLanguage(currentLanguage);
+languageLoad('english');

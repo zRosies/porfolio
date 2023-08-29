@@ -19,19 +19,81 @@
             <button id="ham"> &#9776;</button>
         </div>
        
-        <nav>
+       
             <nav class="navigation">
                 
                 <a href="../home/home.html">Home</a>
-                <a href="../projects/project.html">Projects</a>
+                <a href="../projects/project.html" class="navactive">Projects</a>
                 <a href="../about/about.html">About</a>
-                <a href="../contact/contact.html"  class="navactive">Contact</a>
-                <!-- <button class="login">Login</button> -->
-
+                <a href="../contact/contact.html">Contact</a>
+                
+                <div class="translationSmall">
+                    <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                    <label class="switch">
+                        
+                       
+                        <select name="languages" id="lang">
+                            <option value="English">English</option>
+                            <option value="Portuguese">Português</option>
+                            
+                        </select>
+                        
+                       
+                    
+                    </label>
+                </div>
+            
+    
             </nav>
-        </nav>
+        
+             <div class="translation">
+                <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                <label class="switch">
+                    
+                    <!-- <input type="checkbox" id="switchButton"> -->
+                    <select name="languages" id="lang2">
+                        <option value="English">English</option>
+                        <option value="Portuguese">Português</option>
+                        
+                    </select>
+                    
+                    <!-- <span class="slider"><p>es</p></span> -->
+                
+                </label>
+            </div>
+    
     </header>
     <main>
+        <div>
+            <h1>Hire me!</h1>
+            <form class="container">
+                <label for="text">Name:
+                    <input type="text">
+                </label>
+                <label for="text">Company Name:
+                    <input type="text">
+                </label>
+                <label for="job">
+                    Job role:
+                    <select name="jobs" id="jobs" required>
+                        <option value="disabled" disabled selected>Select an specification</option>
+                        <option value="">Junior Developer</option>
+                        <option value="FullStack">Full-Stack Developer</option>
+                        <option value="FrontEnd">Front-End Developer</option>
+                        <option value="BackEnd">Back-End Developer</option>
+                        <option value="Software">Software Developer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <p>or Contact me!</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/gustavo-l-bispo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/zRosies/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/5521989024326" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
+
+                </div>
+            </form>
+        </div>
 
     </main>
 
@@ -41,6 +103,7 @@
         
     </footer>
     <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1100px) {
 
     .navigation a{
         flex-wrap: wrap;
@@ -57,14 +57,16 @@
         display: block;
         z-index: 0;
         /* border: 2px solid white; */
-        padding: 5px;
-        font-size: 1.5em;
-        margin-right: 50px;
+        
+        font-size: 1.2em;
+        margin-right: 10px;
         margin-top: 20px;
-        width: 50px;
+        height: 42px;
+        width: 42px;
     }
     .container1{
         left: 2%;
+        top: 20%;
     }
     
     .wrapper{
@@ -77,6 +79,19 @@
     .imb{
         height: 50px;
         width: 50px;
+    }
+
+    
+    .wrapper.active{
+        position: absolute;
+        height: 520px;
+        width: 95%;
+        display: flex;
+        left: 2%;
+        
+        justify-content: center;
+        align-items: center;
+    
     }
 
 
@@ -95,10 +110,32 @@
         transition: .5s ease-in-out;
         transform: scale(1.1);
     }
+    .translationSmall{
+        display: flex;
+        justify-content: end;
+        
+
+    }
+    .translationSmall label{
+        margin-right: 50px;
+    }
+
+    .translationSmall span{
+        color: rgba(0, 255, 255);
+        margin-right: 5px;
+    }
+   
+    .translation{
+        display: none;
+    }
     header{
         margin: 0;
         padding: 0;
         padding-bottom: 10px;
+    }
+
+    footer{
+        margin-top: 100px;
     }
 
 

@@ -21,22 +21,54 @@
             <button id="ham"> &#9776;</button>
         </div>
        
-        <nav>
+       
             <nav class="navigation">
                 
                 <a href="../home/home.html">Home</a>
                 <a href="../projects/project.html" class="navactive">Projects</a>
                 <a href="../about/about.html">About</a>
                 <a href="../contact/contact.html">Contact</a>
-                <!-- <button class="login">Login</button> -->
-
+                
+                <div class="translationSmall">
+                    <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                    <label class="switch">
+                        
+                       
+                        <select name="languages" id="lang">
+                            <option value="English">English</option>
+                            <option value="Portuguese">Português</option>
+                            
+                        </select>
+                        
+                       
+                    
+                    </label>
+                </div>
+            
+    
             </nav>
-        </nav>
+        
+             <div class="translation">
+                <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                <label class="switch">
+                    
+                    <!-- <input type="checkbox" id="switchButton"> -->
+                    <select name="languages" id="lang2">
+                        <option value="English">English</option>
+                        <option value="Portuguese">Português</option>
+                        
+                    </select>
+                    
+                    <!-- <span class="slider"><p>es</p></span> -->
+                
+                </label>
+            </div>
+    
     </header>
     <main>
             <div class="buttons">
                 <button id="web">WebPages</button>
-                <button id="javascript">Javascript</button>
+                <button id="javascript">Javascript/Reactjs</button>
                 <button id="csharp">C#</button>
                 <button id="python">Python</button>
                 
@@ -98,38 +130,40 @@
                     <div>
                         <img src="img/poke.png" alt="pokemon">
                         <div class="overlay">
-                            <div class="text">Pokedex Project <br><a href="https://zrosies.github.io/CSE-121B/PokedexProject/" target="_blank">Check it out</a></div>
+                            <a href="https://zrosies.github.io/CSE-121B/PokedexProject/" target="_blank"><div class="text">Pokedex Project <br>Check it out</div></a>
                             
                         </div>
                     </div>
                     <div>
-                        <img src="img/temples.png" alt="temples">
+                        <img src="img/imdb.png" alt="prophet">
                         <div class="overlay">
-                            <div class="text">Sorted List API<br><a href="https://zrosies.github.io/CSE-121B/w05_student_files/task5.html" target="_blank">Check it out</a></div>
+                            <a href="https://movies-library-zrosies.vercel.app/" target="_blank"><div class="text"> IMDB Clone <br>Check it out</div></a>
                         </div>
                     </div>
+                 
                     <div>
                         <img src="img/weatherApi.png" alt="api">
                         <div class="overlay">
-                            <div class="text">Open Weather API <br> <a href="https://zrosies.github.io/WDD230/lesson10/weather-api.html" target="_blank">Check it out</a></div>
+                            <a href="https://zrosies.github.io/WDD230/lesson10/weather-api.html" target="_blank"><div class="text">Weather App<br> Check it out</div></a>
                         </div>
                     </div>
                     <div>
                         <img src="img/tasks.png" alt="tasks">
                         <div class="overlay">
-                            <div class="text">Todo List <br> <a href="https://zrosies.github.io/WDD230/dom/index.html" target="_blank">Check it out</a></div>
+                            <a href="https://zrosies.github.io/WDD230/dom/index.html" target="_blank"><div class="text">Todo List <br> Check it out</div></a>
                         </div>
                     </div>
+                    
                     <div>
-                        <img src="img/test.png" alt="prophet">
+                        <img src="img/temples.png" alt="temples">
                         <div class="overlay">
-                            <div class="text"> JSON Manipulation <br><a href="https://zrosies.github.io/WDD230/chamber/directory/directory.html" target="_blank">Check it out</a></div>
+                            <a href="https://zrosies.github.io/CSE-121B/w05_student_files/task5.html" target="_blank"><div class="text">Sorted List API<br>Check it out</div></a>
                         </div>
                     </div>  
                     <div>
                         <img src="img/functions.png" alt="func">
                         <div class="overlay">
-                            <div class="text">Javascript Manipulation <br><a href="https://zrosies.github.io/CSE-121B/w3_assignment/task3.html">Check it out</a></div>
+                            <a href="https://zrosies.github.io/CSE-121B/w3_assignment/task3.html" target="_blank"><div class="text">Javascript Manipulation <br>Check it out</div></a>
                         </div>
                     
                     </div>
@@ -239,6 +273,7 @@
     <footer>
         <p>Gustavo Bispo | <span id="year"></span> &copy; | All rights reserved | Last Updated: <span id="update"></span></p>
     </footer>
+    <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     <script src="script/events.js"></script>
     <script src="script/slides.js"></script>
 </body>
