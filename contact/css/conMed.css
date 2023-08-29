@@ -11,7 +11,14 @@
     .navigation a::after{
         width: 0%;
     }
-
+    .translation{
+        display: none;
+    }
+    .translationSmall{
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
     .navigation{
         display: none;
         flex-direction: column;
@@ -57,15 +64,18 @@
     }
     #ham{
         /* justify-self: center; */
-        display: block;
+        display: flex;
         z-index: 0;
         /* border: 2px solid white; */
+        align-items: center;
+        justify-content: center;
+        justify-self: end;
         padding: 5px;
-        font-size: 1.5em;
-        margin-right: 50px;
+        font-size: 1.2em;
+        margin-right: 10px;
         margin-top: 20px;
-        width: 50px;
-        height: 50px;
+        width: 42px;
+        height: 42px;
     }
     .container1{
         left: 2%;

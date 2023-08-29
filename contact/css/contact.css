@@ -220,14 +220,23 @@ height: 100%;
 padding: 20px;
 }
 
-#ham{
-  display: none;
 
+#ham{
+  /* position: relative; */
+  display: none;
   color: white;
   background-color: transparent;
   border: none;
+  /* border-radius: 20px; */
+  /* padding: 15px; */
+  height: 50px;
+  width: 50px;
   transition: .5s ease-in-out;
-  border: 2px solid rgba(0, 255, 255);
+  font-size: 1.2em;
+  
+  border: 1px solid rgba(0, 255, 255);
+  /* margin-left: -50px; */
+  
 }
 
 span{

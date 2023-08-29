@@ -847,8 +847,7 @@ input:checked + .slider:before {
     border: none;
     /* border-radius: 20px; */
     /* padding: 15px; */
-    height: 50px;
-    width: 50px;
+  
     transition: .5s ease-in-out;
     
     border: 1px solid rgba(0, 255, 255);
