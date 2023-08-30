@@ -40,10 +40,10 @@
     .navigation.open a{
         text-align: center !important;
     }
-    .container1{
-        left: 20%;
+    .container{
+      
         /* width: 400px; */
-        width: 600px;
+        width:95%;
 
     }
     .text{

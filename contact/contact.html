@@ -28,7 +28,7 @@
                 <a href="../contact/contact.html" class="navactive">Contact</a>
                 
                 <div class="translationSmall">
-                    <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                    <p data-translation="lang">Language</p> <span><i class="fa-solid fa-globe"></i></span>
                     <label class="switch">
                         
                        
@@ -47,7 +47,7 @@
             </nav>
         
              <div class="translation">
-                <p>Language <span><i class="fa-solid fa-globe"></i></span></p>
+                <p data-translation="lang">Language</p> <span><i class="fa-solid fa-globe"></i></span>
                 <label class="switch">
                     
                     <!-- <input type="checkbox" id="switchButton"> -->
@@ -64,28 +64,37 @@
     
     </header>
     <main>
-        <div>
-            <h1>Hire me!</h1>
-            <form class="container">
-                <label for="text">Name:
-                    <input type="text">
+        <div class="container">
+            <h1 data-translation="hire">Hire me!</h1>
+            <form action="" method="post">
+                <label for="text" >
+                    <p2 data-translation="name">Name </p2>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" data-translation="name">
                 </label>
-                <label for="text">Company Name:
-                    <input type="text">
+                <label for="text" >
+                    <p2 data-translation="company">Company Name</p2>
+                    <i class="fa-solid fa-building"></i>
+                    <input type="text"data-translation="company">
                 </label>
-                <label for="job">
-                    Job role:
+                <label for="email" >Email <i class="fa-solid fa-envelope"></i>
+                    <input type="email" data-translation="">
+                </label>
+                <label for="job" >
+                    <p2 data-translation="job">Job role</p2>
+                    <i class="fa-solid fa-briefcase"></i>
                     <select name="jobs" id="jobs" required>
-                        <option value="disabled" disabled selected>Select an specification</option>
-                        <option value="">Junior Developer</option>
-                        <option value="FullStack">Full-Stack Developer</option>
-                        <option value="FrontEnd">Front-End Developer</option>
-                        <option value="BackEnd">Back-End Developer</option>
-                        <option value="Software">Software Developer</option>
-                        <option value="other">Other</option>
+                        <option value="disabled" disabled selected  data-translation="select">Select a role</option>
+                        <option value="junior" data-translation="junior">Junior Developer</option>
+                        <option value="FullStack" data-translation="full">Full-Stack Developer</option>
+                        <option value="FrontEnd" data-translation="front">Front-End Developer</option>
+                        <option value="BackEnd" data-translation="back">Back-End Developer</option>
+                        <option value="Software" data-translation="soft">Software Developer</option>
+                        <option value="other" data-translation="other">Other</option>
                     </select>
                 </label>
-                <p>or Contact me!</p>
+                <input type="submit" id="btn" data-translation="send">
+                <p data-translation="contact">or Contact me!</p>
                 <div class="links">
                     <a href="https://www.linkedin.com/in/gustavo-l-bispo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/zRosies/" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -103,6 +112,7 @@
         
     </footer>
     <script src="script/script.js"></script>
+    
     <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     
 </body>

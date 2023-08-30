@@ -55,6 +55,14 @@
         width: auto;
         left: 5%;
     }
+    
+    .smallIcon{
+        display: flex;
+    }
+    .normalIcon{
+        display: none;
+    }
+  
 
     .future{
         font-size: 3em !important;
@@ -84,8 +92,13 @@
     .projects{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 400px);
+        grid-template-rows: repeat(6, 600px);
         margin-bottom: 100px;
+    }
+    #javascript span{
+        font-size: 1.2em;
+        text-align: center;
+        justify-content: center;
     }
     
     .text{

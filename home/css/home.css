@@ -155,19 +155,23 @@ nav a{
     font-size: 2.5em;
     text-align: end;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    
 
 }
 .registerlin i:hover{
     text-decoration: underline;
     border-radius: 50px;
-    box-shadow: 2px 2px 10px rgba(0, 255, 255,0.9);
+    color: rgba(0, 255, 255);
     transform: scale(1.1);
-    justify-self: flex-end;
-    transition: .3s ease-in-out;
+   
     text-decoration: none;
 
 }
+
+.registerlin i{
+    transition: .3s ease-in-out;
+}
+
 .loglin{
     color: black;
     text-decoration: none;
@@ -178,7 +182,8 @@ nav a{
 .loglin:hover{
     text-decoration: underline;
     transform: scale(1.1);
-    transition: .3s ease-in-out;
+    color: rgba(0, 255, 255);
+    
    
 }
 
@@ -470,8 +475,8 @@ margin-bottom: -18px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 10%;
-    top: 10%;
+    right: 4%;
+    top: 20%;
     animation: div 6s infinite;
     z-index: 0;
 }
@@ -860,11 +865,17 @@ header div{
 }
 
 .translation p{
-    color: #fff;margin-right: 20px;
+    color: #fff;
+    margin-right:2px;
 }
 
 .translation span{
-    color: #04c0ea;
+    
+    margin-right:10px;
+}
+
+.translation span{
+    color: rgba(0, 255, 255)
 }
 
 .new{

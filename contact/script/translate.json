@@ -1,0 +1,41 @@
+{
+    "english": {
+        "hire": "Hire me!",
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "or Contact me!",
+        "name": "Name",
+        "company": "Company name",
+        "job": "Job role",
+        "role":"Select a role",
+        "select": "Selecione uma função",
+        "junior":"Junior Developer",
+        "lang": "Language",
+        "front":"Front-end Developer",
+        "full": "Full-Stack Developer",
+        "back": "Back-end Developer",
+        "soft": "Software Developer",
+        "other" : "Other"
+    },
+    "portuguese": {
+        "lang": "Idioma",
+        "hire": "Me contrate!",
+        "home": "Início",
+        "projects": "Projetos",
+        "about": "About",
+        "name": "Nome",
+        "company": "Nome da empresa",
+        "contact":"ou me Contate!",
+        "job": "Função",
+        "role":"selecione uma função",
+        "junior":"Desenvolvedor Junior",
+        "select": "Selecione uma função",
+        "front":"Desenvolvedor Front-end",
+        "full": "Desenvolvedor Full-Stack",
+        "back": "Desenvolvedor Back-end",
+        "soft": "Desenvolvedor de Software",
+        "other" : "Outro"
+
+    }
+}
