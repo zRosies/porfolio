@@ -1,0 +1,120 @@
+@media screen and (max-width:1300px) {
+
+    .navigation a{
+        flex-wrap: wrap;
+        margin: 0;
+        text-shadow: 0px 2px 2px #000;
+    }
+    header{
+        overflow: hidden;
+    }
+    .navigation a::after{
+        width: 0%;
+    }
+    .translation{
+        display: none;
+    }
+    .translationSmall{
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+    .navigation{
+        display: none;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .navigation.open{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: center;
+        /* width: 100%; */
+
+    }
+    .navigation.open a{
+        display: flex;
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .navigation.open a{
+        text-align: center !important;
+    }
+    .container{
+      
+        /* width: 400px; */
+        width:95%;
+
+    }
+    .text{
+        width: 900px;
+    }
+
+    .effec{
+        width: auto;
+        left: 5%;
+    }
+    .merda{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .future{
+        font-size: 3em !important;
+    }
+    #ham{
+        /* justify-self: center; */
+        display: flex;
+        z-index: 0;
+        /* border: 2px solid white; */
+        align-items: center;
+        justify-content: center;
+        justify-self: end;
+        padding: 5px;
+        font-size: 1.2em;
+        margin-right: 10px;
+        margin-top: 20px;
+        width: 42px;
+        height: 42px;
+    }
+    .container1{
+        left: 2%;
+    }
+    
+    .wrapper{
+        left: 5%;
+    }
+    .ima{
+        height: 300px;
+        width: 300px;
+    }
+    .imb{
+        height: 50px;
+        width: 50px;
+    }
+
+
+    .login{
+        display: none;
+    }
+    header{
+        
+        display: block;
+        /* width: 100%; */
+        /* justify-content: space-between; */
+    }
+    .navactive{
+        background:rgba(0, 255, 255); 
+        box-shadow: 0 2px 20px rgba(0, 255, 255); 
+        transition: .5s ease-in-out;
+        transform: scale(1.1);
+    }
+    header{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+
+
+}
