@@ -19,6 +19,9 @@
         justify-content: end;
         margin-top: 10px;
     }
+    #lang{
+        margin-right: 50px;
+    }
     .navigation{
         display: none;
         flex-direction: column;
@@ -109,11 +112,18 @@
         transition: .5s ease-in-out;
         transform: scale(1.1);
     }
-    header{
-        margin: 0;
-        padding: 0;
-        padding-bottom: 10px;
+  
+    .translationSmall label{
+        margin-right: 50px;
     }
+
+    .translationSmall span{
+        color: rgba(0, 255, 255);
+        margin-right: 5px;
+    }
+   
+
+
 
 
 
