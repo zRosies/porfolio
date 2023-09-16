@@ -259,6 +259,9 @@ main div p{
   width: 100%;
 }
 
+.translationSmall p{
+  margin-right: 2px;
+}
 
 #lang , #lang2{
   

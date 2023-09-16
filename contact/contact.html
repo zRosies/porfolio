@@ -66,25 +66,25 @@
     <main>
         <div class="container">
             <h1 data-translation="hire">Hire me!</h1>
-            <form action="" method="post">
+            <form action="submit" method="post">
                 <label for="text" >
-                    <p2 data-translation="name">Name </p2>
+                    <span data-translation="name">Name </span>
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" data-translation="name">
+                    <input type="text" data-translation="name" id="text">
                 </label>
-                <label for="text" >
-                    <p2 data-translation="company">Company Name</p2>
+                <label for="company" >
+                    <span data-translation="company">Company Name</span>
                     <i class="fa-solid fa-building"></i>
-                    <input type="text"data-translation="company">
+                    <input type="text" data-translation="company" id="company">
                 </label>
                 <label for="email" >Email <i class="fa-solid fa-envelope"></i>
-                    <input type="email" data-translation="">
+                    <input type="email" data-translation="" id="email">
                 </label>
-                <label for="job" >
-                    <p2 data-translation="job">Job role</p2>
+                <label for="jobs" >
+                    <span data-translation="job">Job role</span>
                     <i class="fa-solid fa-briefcase"></i>
                     <select name="jobs" id="jobs" required>
-                        <option value="disabled" disabled selected  data-translation="select">Select a role</option>
+                        <option value="" disabled selected data-translation="select">Select an option</option>
                         <option value="junior" data-translation="junior">Junior Developer</option>
                         <option value="FullStack" data-translation="full">Full-Stack Developer</option>
                         <option value="FrontEnd" data-translation="front">Front-End Developer</option>
@@ -98,7 +98,7 @@
                 <div class="links">
                     <a href="https://www.linkedin.com/in/gustavo-l-bispo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/zRosies/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://wa.me/5521989024326" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
+                    <a href="https://wa.me/5521989024326" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
                 </div>
             </form>

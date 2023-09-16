@@ -346,9 +346,7 @@ body{
   width: 100%;
 }
 
-.container p{
-  text-align: ce;
-}
+
 
 .links{
   display: flex;
@@ -357,6 +355,11 @@ body{
   margin-bottom: 10px;
 }
 
+label span{
+  text-decoration: none;
+  color: #000;
+  text-shadow: none;
+}
 
 #ham{
   /* position: relative; */
