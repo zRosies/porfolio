@@ -1,0 +1,35 @@
+[
+    {   "image":"img/csherp.gif.gif",
+        "link": "https://github.com/zRosies/CSE-210/tree/main/prove/Develop05",
+        "name": "Goal Tracker" 
+
+    },
+    {   "image":"img/gif2.gif.gif",
+        "link": "https://github.com/zRosies/CSE-210/tree/main/prove/Develop04",
+        "name": "Mindfulnes" 
+
+    },
+    {   "image":"img/project3.gif.gif",
+    "link": "https://github.com/zRosies/CSE-210/tree/main/final/Foundation2",
+    "name": "Packing Label" 
+
+    },
+    {   "image":"img/project4.gif.gif",
+    "link": "https://github.com/zRosies/CSE-210/tree/main/prove/Develop03",
+    "name": "Scripture Memorizer" 
+
+    },
+    {
+        "image":"img/project5.gif",
+        "link": "https://github.com/zRosies/CSE-210/tree/main/final/Foundation4",
+        "name": "Pace App" 
+    
+    }, 
+    {
+    "image":"img/projec6.gif",
+    "link": "https://github.com/zRosies/CSE-210/tree/main/prove/Develop02",
+    "name": "Journal" 
+
+    }
+   
+]

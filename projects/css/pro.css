@@ -445,6 +445,7 @@ h1{
   
 }
 
+
 .smallIcon{
   display: none;
   font-size: 2em;
@@ -489,6 +490,24 @@ h1{
 .projects div:hover .overlay {
   height: 100%; /* Expand the overlay to 100% of its parent's height */
 }
+
+.web .projects{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2,600px);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.web .projects{
+  width: 100%;
+}
+
+.web .projects div img{
+  
+
+}
+
 
 .text {
   /* box-shadow: none !important; */

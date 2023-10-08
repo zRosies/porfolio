@@ -1,0 +1,35 @@
+[
+    {   "image":"img/p2.png",
+        "link": "https://github.com/zRosies/CSE-111/blob/master/w08-family_history.py",
+        "name": "Civil Records" 
+
+    },
+    {   "image":"img/py5.png",
+        "link": "https://github.com/zRosies/Python/blob/main/CES-103/w10_ShoppingCart.py",
+        "name": "Shopping Cart App" 
+
+    },
+    {   "image":"img/sortingEmployee.png",
+    "link": "https://github.com/zRosies/Python/blob/main/CES-103/w09_working_w_list1.py",
+    "name": "Employee App" 
+
+    },
+    {   "image":"img/life.png",
+    "link": "https://github.com/zRosies/Python/blob/main/CES-103/w12_mile_w12_done.py",
+    "name": "Life Expectancy App" 
+
+    },
+    {
+        "image":"img/heartrate.png",
+        "link": "https://github.com/zRosies/CSE-111/blob/master/W12_heart_rate.py",
+        "name": "Heart-rate Calculator" 
+    
+    }, 
+    {
+    "image":"img/py1.png",
+    "link": "https://github.com/zRosies/CSE-111/blob/master/w04-Scene.py",
+    "name": "2D Drawning" 
+
+    }
+   
+]

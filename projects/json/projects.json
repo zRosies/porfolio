@@ -1,0 +1,35 @@
+[
+    {   "image":"img/poke.png",
+        "link": "https://zrosies.github.io/CSE-121B/PokedexProject/",
+        "name": "Pokedex App" 
+
+    },
+    {   "image":"img/imdb.png",
+        "link": "https://movies-library-zrosies.vercel.app/",
+        "name": "IMDB Clone" 
+
+    },
+    {   "image":"img/todo.png",
+    "link": "https://todo-list-eq78u988o-zrosies.vercel.app/",
+    "name": "Todo List" 
+
+    },
+    {   "image":"img/weatherApi.png",
+    "link": "https://zrosies.github.io/WDD230/lesson10/weather-api.html",
+    "name": "Weather App" 
+
+    },
+    {
+        "image":"img/blog.png",
+        "link": "https://zrosies.github.io/CSE-121B/w3_assignment/task3.html",
+        "name": "Blog App" 
+    
+    }, 
+    {
+    "image":"img/temples.png",
+    "link": "https://zrosies.github.io/CSE-121B/w05_student_files/task5.html",
+    "name": "Sorted List API" 
+
+    }
+   
+]
